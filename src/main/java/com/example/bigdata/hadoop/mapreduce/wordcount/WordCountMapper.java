@@ -1,4 +1,4 @@
-package com.example.bigdata.hadoop.mapreduce.wordcount.mapper;
+package com.example.bigdata.hadoop.mapreduce.wordcount;
 
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
@@ -15,7 +15,6 @@ public class WordCountMapper extends Mapper<LongWritable, Text, Text, LongWritab
 
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
-
         // 分割文件
         String[] split = value.toString().split(",");
         for (String str : split) {

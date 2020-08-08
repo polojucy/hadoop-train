@@ -1,4 +1,4 @@
-package com.example.bigdata.hadoop.mapreduce.wordcount.reducer;
+package com.example.bigdata.hadoop.mapreduce.wordcount;
 
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;

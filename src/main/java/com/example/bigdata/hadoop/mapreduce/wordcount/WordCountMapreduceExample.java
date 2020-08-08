@@ -1,7 +1,5 @@
 package com.example.bigdata.hadoop.mapreduce.wordcount;
 
-import com.example.bigdata.hadoop.mapreduce.wordcount.mapper.WordCountMapper;
-import com.example.bigdata.hadoop.mapreduce.wordcount.reducer.WordCountReducer;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;

@@ -30,7 +30,7 @@
 
     <properties>
         <!--dependency versions-->
-        <hadoop.cdh.version>2.6.0-cdh5.15.1</hadoop.cdh.version>
+        <hadoop.cdh.version>2.7.0</hadoop.cdh.version>
         <junit.version>4.10</junit.version>
     </properties>
 
